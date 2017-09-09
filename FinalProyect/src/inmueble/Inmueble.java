@@ -90,7 +90,7 @@ public abstract class Inmueble {
 
     @Override
     public String toString() {
-        return "Inmueble{" + "codigoNacional=" + codigoNacional + ", direccion=" + direccion + ", area=" + area + ", valorComercial=" + valorComercial + ", estrato=" + estrato + '}';
+        return codigoNacional + "," + area + ", " + estrato + ", " + valorComercial;
     }
     
     public BigDecimal calculaImpuesto(){return null;}

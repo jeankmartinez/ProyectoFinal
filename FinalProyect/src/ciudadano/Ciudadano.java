@@ -9,6 +9,7 @@ import inmueble.Inmueble;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import inmueble.*;
 
 /**
  *
@@ -44,7 +45,14 @@ public class Ciudadano {
 
     public List <Inmueble> getInmueble (Inmueble inmueble){
         //this.inmueble = (List) inmueble;
+        //List <Inmueble> = ;
         return null;
+    }
+    
+    
+    public List <Inmueble> getInmueble(){
+        //this.inmueble = (List) inmueble;
+        return inmueble;
     }
     /*
     public void setId(String id) {
@@ -91,12 +99,10 @@ public class Ciudadano {
         hash = 41 * hash + Objects.hashCode(this.apellido);
         return hash;
     }
-    
+
     @Override
     public String toString() {
         return "Ciudadano{" + "id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + '}';
     }
-
-    
     
 }
